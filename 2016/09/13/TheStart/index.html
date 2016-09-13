@@ -77,11 +77,11 @@
                             <div class="ribbon"></div>
                         </div>
                         
-                        
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
                         </div>
+                        
                         
                     </div>
                     
@@ -92,8 +92,8 @@
                         <li>菜单</li>
                         <li>标签</li>
                         
+                        <li>友情链接</li>
                         
-                        <li>关于我</li>
                         
                     </ul>
                 </div>
@@ -136,13 +136,17 @@
                 
                 
                 
-
-                
-                
                 <section class="switch-part switch-part3">
-                
-                    <div id="js-aboutme">热爱动漫、音乐，喜欢阅读、跑步，爱折腾、固执，强迫症患者、选择困难症患者、失眠症患者。</div>
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/Celyur">Github</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://www.zhihu.com/people/huang-yx-60">Zhihu</a>
+                    
+                    </div>
                 </section>
+                
+
                 
             </div>
         </div>
@@ -393,7 +397,7 @@
 
     <script>
         $(document).ready(function() {
-            var backgroundnum = 777;
+            var backgroundnum = /bg-777.png;
             var backgroundimg = "url(/background/bg-" + backgroundnum +".jpg)";
             $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
             $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
